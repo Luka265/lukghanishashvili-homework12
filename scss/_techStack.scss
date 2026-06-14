@@ -1,0 +1,27 @@
+.tech-stack-section {
+  margin-bottom: 214px;
+  .tech-stack {
+    text-align: center;
+    .section-title {
+      color: $primaryColor;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 26px;
+    }
+    .section-txt {
+      margin: 49px 0px 140px;
+      color: $secondaryColor;
+      font-size: 32px;
+      line-height: 26px;
+      font-weight: 400;
+    }
+    .tech-Stack-icons {
+      display: flex;
+      justify-content: space-between;
+      img {
+        width: 105px;
+        height: 105px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.hero {
+  min-height: 350px;
+  margin: 262px 0px 330px;
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      font-size: 58px;
+      font-weight: 700;
+      line-height: 70px;
+      max-width: 636px;
+      color: $primaryColor;
+    }
+    .hero-image {
+      max-height: 500px;
+    }
+  }
+}
