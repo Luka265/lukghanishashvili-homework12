@@ -20,19 +20,19 @@
           <nav class="nav">
             <ul class="nav-list">
               <li><a href="index.html">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Tech Stack</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#hero">About</a></li>
+              <li><a href="#skills">Tech Stack</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
             <ul class="social-list">
               <li>
-                <a href="#">
+                <a href="https://github.com/Luka265">
                   <img src="./images/github.svg" alt="github" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/">
                   <img src="./images/linkedin.svg" alt="linkedIn" />
                 </a>
               </li>
@@ -41,7 +41,7 @@
           </nav>
         </div>
       </header>
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="hero-container container">
           <h1>
             Hi, My name is Luka, <br />
@@ -50,7 +50,7 @@
           <img src="./images/programming.png" alt="" class="hero-image" />
         </div>
       </section>
-      <section class="tech-stack-section">
+      <section class="tech-stack-section" id="skills">
         <div class="container tech-stack">
           <h2 class="section-title">My Tech Stack</h2>
           <p class="section-txt">
@@ -65,19 +65,15 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="projects">
         <div class="container projects">
           <h2 class="section-title">Projects</h2>
           <p class="section-txt">Things I’ve built so far</p>
           <div class="project-cards">
             <div class="card">
-              <img
-                src="./images/Rectangle 4.jpg"
-                alt="webPage"
-                class="project-banner"
-              />
+              <div class="project-banner project-1"></div>
               <div class="card-info-container">
-                <h3 class="project-title">Project Tile goes here</h3>
+                <h3 class="project-title">Portfolio</h3>
                 <p class="project-description">
                   This is sample project description random things are here in
                   description This is sample project lorem ipsum generator for
@@ -93,7 +89,12 @@
                   </div>
                   <div class="project-link">
                     <img src="./images/card-githubIcon.svg" alt="github" />
-                    <a href="#" class="card-link">View Code</a>
+                    <a
+                      href="https://github.com/Luka265/lukghanishashvili-homework12"
+                      class="card-link"
+                      target="_blank"
+                      >View Code</a
+                    >
                   </div>
                 </div>
               </div>
@@ -241,7 +242,7 @@
           </div>
         </div>
       </section>
-      <footer>
+      <footer id="contact">
         <div class="container">
           <div class="contact-section">
             <p>+91 12345 09876</p>

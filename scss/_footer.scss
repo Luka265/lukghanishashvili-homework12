@@ -16,3 +16,24 @@ footer {
     }
   }
 }
+@media (max-width: 1000px) {
+  footer {
+    margin-top: 221px;
+    .contact-section {
+      margin: 0px 0px 51px 300px;
+      max-width: 617px;
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+      .footer-icons {
+        display: flex;
+        column-gap: 22px;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

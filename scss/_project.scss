@@ -20,9 +20,17 @@
     row-gap: 62px;
     .card {
       .project-banner {
+        max-width: 375px;
+        height: 260px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
       }
+      .project-1 {
+        background-image: url(../images/project-1.png);
+        background-position: center;
+        background-size: cover;
+      }
+
       max-width: 373px;
       min-height: 567px;
       border-radius: 20px;
@@ -63,6 +71,81 @@
             .card-link {
               text-decoration: underline;
               color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1240px) {
+  .projects {
+    text-align: center;
+    .section-title {
+      color: $primaryColor;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 26px;
+    }
+    .section-txt {
+      margin: 49px 0px 140px;
+      color: $secondaryColor;
+      font-size: 32px;
+      line-height: 26px;
+      font-weight: 400;
+    }
+    .project-cards {
+      display: flex;
+
+      justify-content: space-around;
+      flex-wrap: wrap;
+      row-gap: 62px;
+      .card {
+        .project-banner {
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+        }
+        max-width: 373px;
+        min-height: 567px;
+        border-radius: 20px;
+        -webkit-box-shadow: 2px 2px 50px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 50px 0px rgba(0, 0, 0, 0.2);
+        .card-info-container {
+          padding: 27px 45px 25px 28px;
+          text-align: left;
+          .project-title {
+            font-size: $fontM;
+            color: #000;
+            font-weight: 500;
+            line-height: 26px;
+          }
+          .project-description {
+            font-size: $fontXS;
+            color: $secondaryColor;
+            margin: 17px 0px 12px;
+            line-height: 26px;
+            font-weight: 300;
+          }
+          .language-used {
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 300;
+            span {
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+          .project-link-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 21px;
+            .project-link {
+              display: flex;
+              align-items: center;
+              .card-link {
+                text-decoration: underline;
+                color: black;
+              }
             }
           }
         }

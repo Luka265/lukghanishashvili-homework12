@@ -33,3 +33,42 @@ header {
     }
   }
 }
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+    color: $secondaryColor;
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      align-items: center;
+      .logo {
+        color: $secondaryColor;
+        padding-left: 15px;
+      }
+      .nav {
+        display: flex;
+        column-gap: 53px;
+        align-items: center;
+        .nav-list {
+          display: none;
+          column-gap: 63px;
+          li a {
+            color: $secondaryColor;
+          }
+        }
+        .social-list {
+          display: none;
+          column-gap: 20px;
+        }
+        .burger-icon {
+          display: inline-block;
+          padding-right: 15px;
+        }
+      }
+    }
+  }
+}
